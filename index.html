@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precious Afolabi | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Precious Afolabi — building clean, responsive websites, mobile apps, and digital experiences for businesses and creators.">
+    <meta name="author" content="Precious Ayotunde Afolabi">
+
+    <!-- Bootstrap 5.3.3 CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- Font Awesome 6.5.1 CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="some-style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top portfolio-nav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Precious<span>.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                        <button type="button" class="btn btn-accent btn-sm px-3 py-2" data-bs-toggle="modal"
+                            data-bs-target="#contactModal">
+                            Let's Talk
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="hero-badge mb-4">
+                        <span class="dot"></span>
+                        Available for freelance &amp; new projects
+                    </div>
+                    <h1 class="hero-title mb-4">
+                        Hi, I'm <span class="highlight">Precious Afolabi</span>.<br>
+                        I craft websites &amp; apps people love to use.
+                    </h1>
+                    <p class="hero-subtitle mb-5">
+                        I partner with businesses, schools, and entrepreneurs to turn ideas into clean,
+                        reliable websites, mobile apps, and online stores that look great on every screen.
+                    </p>
+                    <div class="d-flex flex-wrap gap-3 mb-5">
+                        <a href="#projects" class="btn btn-accent">
+                            View My Work <i class="fa-solid fa-arrow-down ms-2"></i>
+                        </a>
+                        <button type="button" class="btn btn-outline-light-custom" data-bs-toggle="modal"
+                            data-bs-target="#contactModal">
+                            Get in Touch
+                        </button>
+                    </div>
+                    <div class="social-links">
+                        <a href="mailto:ayotunde1900@gmail.com" class="social-btn social-btn-dark" aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="https://wa.me/+2347059546196" target="_blank" rel="noopener"
+                            class="social-btn social-btn-dark" aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="https://github.com/Presth/" target="_blank" rel="noopener"
+                            class="social-btn social-btn-dark" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://x.com/Peaky41772540?t=iGGWbIL8otzKE6uYvLAtOA&s=09" target="_blank"
+                            rel="noopener" class="social-btn social-btn-dark" aria-label="X (Twitter)">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100077929205479&mibextid=kFxxJD"
+                            target="_blank" rel="noopener" class="social-btn social-btn-dark" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="section-padding bg-white">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5">
+                    <div class="portrait-frame mx-auto" style="max-width: 400px;">
+                        <img src="./my-image.png"
+                            alt="Precious Ayotunde Afolabi portrait">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <span class="section-eyebrow">About Me</span>
+                    <h2 class="section-title mb-3">
+                        Blending thoughtful design with dependable engineering.
+                    </h2>
+                    <p class="text-muted fs-6 mb-3">
+                        I'm <strong>Precious Ayotunde Afolabi</strong>, a web and mobile developer with a creative
+                        background in graphic design. Over the past few years, I've helped startups, institutions,
+                        and small businesses launch everything from sleek company websites and online stores to
+                        complete school and finance portals.
+                    </p>
+                    <p class="text-muted fs-6 mb-4">
+                        My focus is always on clarity, speed, and ease of use — making sure your visitors have a
+                        smooth experience while your team gets tools that are simple to manage every day.
+                    </p>
+
+                    <!-- Experience Highlights -->
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-6">
+                            <div class="stat-card d-flex align-items-center gap-3">
+                                <div class="stat-icon"><i class="fa-solid fa-globe"></i></div>
+                                <div>
+                                    <div class="fw-bold text-dark">Web Development</div>
+                                    <div class="small text-muted">3+ years building sites &amp; portals</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="stat-card d-flex align-items-center gap-3">
+                                <div class="stat-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                                <div>
+                                    <div class="fw-bold text-dark">Mobile Apps</div>
+                                    <div class="small text-muted">2+ years crafting mobile experiences</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="stat-card d-flex align-items-center gap-3">
+                                <div class="stat-icon"><i class="fa-solid fa-palette"></i></div>
+                                <div>
+                                    <div class="fw-bold text-dark">Graphic &amp; UI Design</div>
+                                    <div class="small text-muted">4+ years of visual storytelling</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="stat-card d-flex align-items-center gap-3">
+                                <div class="stat-icon"><i class="fa-solid fa-layer-group"></i></div>
+                                <div>
+                                    <div class="fw-bold text-dark">Desktop Publishing</div>
+                                    <div class="small text-muted">5+ years of layout &amp; print design</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Approachable Focus Areas -->
+                    <div class="mb-4">
+                        <div class="small fw-bold text-uppercase text-muted mb-2" style="letter-spacing: 0.06em;">
+                            What I Specialize In
+                        </div>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="focus-pill"><i class="fa-solid fa-circle-check"></i> Business Websites</span>
+                            <span class="focus-pill"><i class="fa-solid fa-circle-check"></i> Mobile Apps</span>
+                            <span class="focus-pill"><i class="fa-solid fa-circle-check"></i> Online Stores</span>
+                            <span class="focus-pill"><i class="fa-solid fa-circle-check"></i> Custom Web Portals</span>
+                            <span class="focus-pill"><i class="fa-solid fa-circle-check"></i> UI &amp; Brand Design</span>
+                            <span class="focus-pill"><i class="fa-solid fa-circle-check"></i> Launch &amp; Support</span>
+                        </div>
+                    </div>
+
+                    <!-- Actions -->
+                    <div class="d-flex flex-wrap align-items-center gap-3 pt-2">
+                        <a class="btn btn-success px-4 py-2 fw-semibold rounded-3"
+                            href="https://wa.me/+2347059546196" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-whatsapp me-2"></i>Chat on WhatsApp
+                        </a>
+                        <button type="button" class="btn btn-outline-dark px-4 py-2 fw-semibold rounded-3"
+                            data-bs-toggle="modal" data-bs-target="#contactModal">
+                            <i class="fa-regular fa-paper-plane me-2"></i>Send a Message
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Selected Projects Section -->
+    <section id="projects" class="section-padding projects-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-eyebrow">Selected Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="text-muted mx-auto mt-2" style="max-width: 580px;">
+                    A curated look at websites, portals, and digital products I've designed and built for real clients.
+                </p>
+            </div>
+
+            <!-- Featured Project 1: Lloyds -->
+            <div class="featured-project mb-4">
+                <div class="row g-0 align-items-stretch">
+                    <div class="col-lg-6">
+                        <div class="project-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80"
+                                alt="Lloyds Loan Management Platform">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 p-4 p-lg-5 d-flex flex-column justify-content-center">
+                        <span class="project-category mb-2">Finance &bull; Web Platform</span>
+                        <h3 class="fw-bold text-dark mb-3">Lloyds Loan Management System</h3>
+                        <p class="text-muted mb-4">
+                            A complete online finance portal that makes applying for and managing loans simple.
+                            Clients can estimate repayments, submit applications, and track their balances from a
+                            clean dashboard, while staff review applications, manage approvals, and generate reports
+                            in one place.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2 mb-4">
+                            <span class="project-tag">Client Dashboard</span>
+                            <span class="project-tag">Admin Portal</span>
+                            <span class="project-tag">Loan Calculator</span>
+                        </div>
+                        <div>
+                            <a href="https://lloydsfinances.com.ng" target="_blank" rel="noopener"
+                                class="btn btn-accent">
+                                Visit Live Site <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Project 2: CBT -->
+            <div class="featured-project mb-4">
+                <div class="row g-0 align-items-stretch flex-lg-row-reverse">
+                    <div class="col-lg-6">
+                        <div class="project-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
+                                alt="Computer Based Testing Platform">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 p-4 p-lg-5 d-flex flex-column justify-content-center">
+                        <span class="project-category mb-2">Education &bull; Testing Platform</span>
+                        <h3 class="fw-bold text-dark mb-3">Computer-Based Testing (CBT) Platform</h3>
+                        <p class="text-muted mb-4">
+                            A browser-based exam platform built for schools and training centers. Administrators can
+                            organize instructors, group students into classes, schedule timed exam batches, and
+                            deliver instant results as soon as a test finishes.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2 mb-4">
+                            <span class="project-tag">Online Exams</span>
+                            <span class="project-tag">Instant Grading</span>
+                            <span class="project-tag">Admin Controls</span>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-accent" data-bs-toggle="modal"
+                                data-bs-target="#contactModal">
+                                Request a Demo <i class="fa-regular fa-envelope ms-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Project 3: SMS -->
+            <div class="featured-project mb-4">
+                <div class="row g-0 align-items-stretch">
+                    <div class="col-lg-6">
+                        <div class="project-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=900&q=80"
+                                alt="Tertiary Institution Management Portal">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 p-4 p-lg-5 d-flex flex-column justify-content-center">
+                        <span class="project-category mb-2">Education &bull; School Portal</span>
+                        <h3 class="fw-bold text-dark mb-3">School Management Portal</h3>
+                        <p class="text-muted mb-4">
+                            An all-in-one campus portal designed to simplify everyday operations for tertiary
+                            institutions — covering student admissions, acceptance tracking, secure online fee
+                            payments, and campus news updates in one unified experience.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2 mb-4">
+                            <span class="project-tag">Student Portal</span>
+                            <span class="project-tag">Online Payments</span>
+                            <span class="project-tag">Campus News</span>
+                        </div>
+                        <div>
+                            <a href="http://peakspot.rf.gd/projects/sms" target="_blank" rel="noopener"
+                                class="btn btn-accent">
+                                Visit Demo <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Project 4: CAPS -->
+            <div class="featured-project mb-4">
+                <div class="row g-0 align-items-stretch flex-lg-row-reverse">
+                    <div class="col-lg-6">
+                        <div class="project-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=900&q=80"
+                                alt="Institution Admissions Processing System">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 p-4 p-lg-5 d-flex flex-column justify-content-center">
+                        <span class="project-category mb-2">Education &bull; Admissions</span>
+                        <h3 class="fw-bold text-dark mb-3">Central Admissions System (CAPS)</h3>
+                        <p class="text-muted mb-4">
+                            A dedicated admissions companion built to help institutions smoothly manage different
+                            application pathways — including direct entry, full-time, and part-time admissions —
+                            from initial application through final review.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2 mb-4">
+                            <span class="project-tag">Admissions Workflow</span>
+                            <span class="project-tag">Multi-Program Support</span>
+                        </div>
+                        <div>
+                            <a href="https://sms-application-manager.onrender.com/" target="_blank" rel="noopener"
+                                class="btn btn-accent">
+                                View Demo <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Project 5: Ecommerce -->
+            <div class="featured-project mb-5">
+                <div class="row g-0 align-items-stretch">
+                    <div class="col-lg-6">
+                        <div class="project-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=900&q=80"
+                                alt="Single Vendor Online Store">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 p-4 p-lg-5 d-flex flex-column justify-content-center">
+                        <span class="project-category mb-2">E-Commerce &bull; Online Store</span>
+                        <h3 class="fw-bold text-dark mb-3">Single-Vendor Online Store</h3>
+                        <p class="text-muted mb-4">
+                            A clean, ready-to-sell storefront that makes it easy for shoppers to browse products,
+                            add items to their cart, and pay securely online. Includes sales tracking for the store
+                            owner and dedicated sections to showcase the brand and team.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2 mb-4">
+                            <span class="project-tag">Shopping Cart</span>
+                            <span class="project-tag">Online Checkout</span>
+                            <span class="project-tag">Sales Tracking</span>
+                        </div>
+                        <div>
+                            <a href="http://peakspot.rf.gd/projects/ecommerce" target="_blank" rel="noopener"
+                                class="btn btn-accent">
+                                Visit Demo <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- More Projects Grid -->
+            <div class="d-flex flex-wrap justify-content-between align-items-end mb-4 pt-3">
+                <div>
+                    <span class="section-eyebrow">More Work</span>
+                    <h3 class="fw-bold text-dark mb-0">Other Websites &amp; Designs</h3>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="mini-project-card">
+                        <div class="mini-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80"
+                                alt="DUHF Salon Website">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <span class="project-category mb-1">Beauty &amp; Lifestyle</span>
+                            <h5 class="fw-bold text-dark mb-2">DUHF Salon Website</h5>
+                            <p class="text-muted small flex-grow-1">
+                                A welcoming online presence for DUHF Salon where visitors can explore services and
+                                book appointments effortlessly.
+                            </p>
+                            <a href="http://duhf.rf.gd" target="_blank" rel="noopener"
+                                class="btn btn-outline-dark btn-sm fw-semibold rounded-3 mt-2">
+                                View Site <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="mini-project-card">
+                        <div class="mini-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1438232992991-995b7058bbb3?auto=format&fit=crop&w=800&q=80"
+                                alt="BLHM Church Website">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <span class="project-category mb-1">Community</span>
+                            <h5 class="fw-bold text-dark mb-2">Church Media Website</h5>
+                            <p class="text-muted small flex-grow-1">
+                                A community website giving members easy access to sermons, audio messages, photos, and
+                                videos, paired with a simple media manager.
+                            </p>
+                            <a href="http://blhm.rf.gd" target="_blank" rel="noopener"
+                                class="btn btn-outline-dark btn-sm fw-semibold rounded-3 mt-2">
+                                View Site <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="mini-project-card">
+                        <div class="mini-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=800&q=80"
+                                alt="Graphic Designer Portfolio Website">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <span class="project-category mb-1">Creative Studio</span>
+                            <h5 class="fw-bold text-dark mb-2">Mark Design Portfolio</h5>
+                            <p class="text-muted small flex-grow-1">
+                                A clean, minimal portfolio website created for a graphic designer to showcase creative
+                                work, services, and articles to prospective clients.
+                            </p>
+                            <a href="http://peakspot.rf.gd/mark-design" target="_blank" rel="noopener"
+                                class="btn btn-outline-dark btn-sm fw-semibold rounded-3 mt-2">
+                                View Site <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="mini-project-card">
+                        <div class="mini-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+                                alt="E-Commerce Landing Page Design">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <span class="project-category mb-1">Landing Page</span>
+                            <h5 class="fw-bold text-dark mb-2">Storefront Landing Page</h5>
+                            <p class="text-muted small flex-grow-1">
+                                A focused single-page product showcase designed to highlight featured items and guide
+                                visitors smoothly toward purchase.
+                            </p>
+                            <a href="http://peakspot.rf.gd/ecommerce-single-page/" target="_blank" rel="noopener"
+                                class="btn btn-outline-dark btn-sm fw-semibold rounded-3 mt-2">
+                                Take a Look <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding services-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-eyebrow" style="color: var(--accent);">How I Can Help</span>
+                <h2 class="section-title text-white">Services Tailored to Your Goals</h2>
+                <p class="text-white-50 mx-auto mt-2" style="max-width: 580px;">
+                    Whether you need a fresh website, a mobile app, or a custom platform for your business,
+                    I handle the details so you can focus on what you do best.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-card text-center">
+                        <div class="service-icon-box">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h4 class="fw-bold text-white mb-3">Websites &amp; Web Platforms</h4>
+                        <p class="text-white-50 mb-0">
+                            Modern, mobile-friendly websites, online stores, and custom portals tailored to your
+                            brand and designed to convert visitors into customers.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="service-card text-center">
+                        <div class="service-icon-box">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+                        <h4 class="fw-bold text-white mb-3">Mobile App Development</h4>
+                        <p class="text-white-50 mb-0">
+                            Smooth, intuitive mobile apps for Android and iOS that keep your customers connected
+                            and make your services accessible anywhere.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="service-card text-center">
+                        <div class="service-icon-box">
+                            <i class="fa-solid fa-rocket"></i>
+                        </div>
+                        <h4 class="fw-bold text-white mb-3">Launch, Hosting &amp; Support</h4>
+                        <p class="text-white-50 mb-0">
+                            Stress-free domain setup, secure hosting, and ongoing updates so your website or app
+                            stays fast, protected, and reliable long after launch.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Friendly Portfolio CTA Banner -->
+    <section class="cta-banner py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold text-dark mb-2">Have a project in mind?</h2>
+            <p class="text-muted mb-4 mx-auto" style="max-width: 520px;">
+                I'd love to hear about what you're building. Let's chat and find the simplest way to bring your idea
+                online.
+            </p>
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+                <button type="button" class="btn btn-dark px-4 py-2 fw-semibold rounded-3" data-bs-toggle="modal"
+                    data-bs-target="#contactModal">
+                    <i class="fa-regular fa-envelope me-2"></i>Start a Conversation
+                </button>
+                <a href="https://wa.me/+2347059546196" target="_blank" rel="noopener"
+                    class="btn btn-success px-4 py-2 fw-semibold rounded-3">
+                    <i class="fa-brands fa-whatsapp me-2"></i>Message on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="portfolio-footer">
+        <div class="container">
+            <div class="row g-4 pb-4">
+                <div class="col-lg-5">
+                    <a class="navbar-brand text-white fs-4 fw-bold d-inline-block mb-3" href="#home">
+                        Precious<span style="color: var(--accent);">.</span>
+                    </a>
+                    <p class="text-white-50 mb-4" style="max-width: 360px;">
+                        Helping brands, institutions, and entrepreneurs build clean, dependable websites and mobile
+                        apps.
+                    </p>
+                    <div class="social-links">
+                        <a href="mailto:ayotunde1900@gmail.com" class="social-btn social-btn-dark" aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="https://wa.me/+2347059546196" target="_blank" rel="noopener"
+                            class="social-btn social-btn-dark" aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="https://github.com/Presth/" target="_blank" rel="noopener"
+                            class="social-btn social-btn-dark" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://x.com/Peaky41772540?t=iGGWbIL8otzKE6uYvLAtOA&s=09" target="_blank"
+                            rel="noopener" class="social-btn social-btn-dark" aria-label="X (Twitter)">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100077929205479&mibextid=kFxxJD"
+                            target="_blank" rel="noopener" class="social-btn social-btn-dark" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <h5 class="text-white fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled d-flex flex-column gap-2">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="http://peakspot.rf.gd" target="_blank" rel="noopener">Peakspot Website</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <h5 class="text-white fw-bold mb-3">Direct Contact</h5>
+                    <ul class="list-unstyled d-flex flex-column gap-2 text-white-50">
+                        <li>
+                            <i class="fa-solid fa-phone me-2" style="color: var(--accent);"></i>
+                            <a href="tel:07059546196">07059546196</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope me-2" style="color: var(--accent);"></i>
+                            <a href="mailto:ayotunde1900@gmail.com">ayotunde1900@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-whatsapp me-2" style="color: var(--accent);"></i>
+                            <a href="https://wa.me/+2347059546196" target="_blank" rel="noopener">Chat on WhatsApp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="border-secondary opacity-25 my-3">
+            <div class="text-center small text-white-50">
+                &copy; <span id="year"></span> Precious Afolabi. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0 pb-0 pt-4 px-4">
+                    <div>
+                        <h4 class="modal-title fw-bold text-dark" id="contactModalLabel">Let's Work Together</h4>
+                        <p class="text-muted small mb-0">Tell me a little about your project and I'll get back to you.
+                        </p>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form id="msg-form">
+                    <div class="modal-body p-4">
+                        <div class="mb-3">
+                            <label for="inputEmail" class="form-label fw-semibold small">Email or Phone Number</label>
+                            <input type="text" class="form-control" name="sender_contact" id="inputEmail"
+                                placeholder="e.g. you@example.com or 08012345678" required>
+                        </div>
+                        <div class="mb-2">
+                            <label for="message" class="form-label fw-semibold small">Your Message</label>
+                            <textarea class="form-control" name="msg" id="message"
+                                placeholder="Share a quick overview of what you need..." rows="4" required></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0 pt-0 pb-4 px-4 d-flex justify-content-between">
+                        <a class="btn btn-success rounded-3 px-3" href="https://wa.me/+2347059546196" target="_blank"
+                            rel="noopener">
+                            <i class="fa-brands fa-whatsapp me-2"></i>WhatsApp
+                        </a>
+                        <button type="submit" class="btn btn-accent">
+                            Send Message <i class="fa-regular fa-paper-plane ms-2"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast-notice" role="status" aria-live="polite"></div>
+
+    <!-- Bootstrap 5.3.3 Bundle JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        const form = document.getElementById('msg-form');
+        const toast = document.getElementById('toast-notice');
+
+        function showToast(text) {
+            toast.textContent = text;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 4000);
+        }
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            const contact = document.getElementById('inputEmail').value.trim();
+            const msg = document.getElementById('message').value.trim();
+
+            const subject = encodeURIComponent('Portfolio Inquiry from ' + contact);
+            const body = encodeURIComponent('Contact: ' + contact + '\n\nMessage:\n' + msg);
+            window.location.href = `mailto:ayotunde1900@gmail.com?subject=${subject}&body=${body}`;
+
+            const modalEl = document.getElementById('contactModal');
+            const modalInstance = bootstrap.Modal.getInstance(modalEl);
+            if (modalInstance) modalInstance.hide();
+
+            form.reset();
+            showToast('Opening your email app to send the message. Thank you!');
+        });
+    </script>
+</body>
+
+</html>
